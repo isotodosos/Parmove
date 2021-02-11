@@ -1,0 +1,75 @@
+  ////////       /* ESTILOS DEL FOOTER */       /////////
+
+  
+
+footer{
+
+    background-color: yellowgreen;
+
+   
+    section{
+        text-align: center;
+        &.Logo{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        &.Contenido{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        div{
+
+            &.redes{
+                text-align: center;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            a{
+                font-family: $letraTitular;
+                text-decoration: none;
+                margin-top: 5px;
+                color:rgb(1, 75, 1);
+
+                &:hover{
+                    color:white;
+                }
+            }
+            p{
+                font-family: $letraTitular; 
+                color:green; 
+            }
+        }
+    }
+    
+
+}
+
+
+@media (min-width: 767.99px){
+
+    footer section{
+
+        &.Logo{
+            width: 25%;
+        }
+
+        &.Contenido{
+            width: 75%;
+
+            div a{
+
+                width: 33.33%;;
+
+            }
+        }
+
+
+        
+    }
+
+
+
+
+}

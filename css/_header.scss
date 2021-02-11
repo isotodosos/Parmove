@@ -1,0 +1,102 @@
+          ////////       /* ESTILOS DEL HEADER */       /////////
+header{
+
+    
+
+    nav{
+   
+        
+       
+       padding: 15px;
+        background-color: yellowgreen;
+        
+        
+        #barras{
+            
+            padding: 6px;
+            font-size: 20px;
+            background-color:yellowgreen;
+            border:none;
+            color:green;
+            
+
+            
+        }    
+        
+    
+        ul{
+            display: block;
+            text-align: center;
+            padding: 5px;
+            
+            
+            li{
+                list-style: none;
+                padding: 5px;
+              
+               
+                &:hover{
+                    background-color: white;
+                    
+                }
+                a{
+                    text-decoration: none;
+                    font-family: $letraTitular;
+                    color:rgb(1, 75, 1);
+                   
+                    margin-left: 0;
+                    &:hover{
+                        color: green;
+                        margin-left: 0;
+    
+                        
+                    }
+
+                }
+               
+    
+            }
+        }
+    }
+
+
+
+}
+
+@media (min-width: 768px){
+
+
+    
+
+   header nav{
+
+        text-align: right;
+        padding: 0px;
+
+        #barras{
+            display: none;
+        }
+        
+        ul{
+            margin-right: 10px;
+            display: inline-flex;
+            padding:0px;
+            
+           
+
+            li{
+               
+               padding: 15px;
+               
+
+            }
+
+        }
+
+       
+        
+    }
+
+  
+
+}
